@@ -22,15 +22,24 @@ namespace StringLength
            //Ternary oparatoridan if-elsega o'tkazish.
            int x = 15;
            int y = 10;
-
-            string result = (x > y) 
-              ? "x katta y dan" 
-              : (x < y)
-                  ? "x kichkina y dan"
-                  : (x == y) 
-                     ? "x va y teng"  
-                     : "x va y ni taqqoslab bo'lmaydi";
-            Console.WriteLine(result);  
+              if (x > y)
+              {
+                Console.WriteLine("x soni y sonidan katta");
+                }
+            else if (x < y)
+                {
+                Console.WriteLine("x soni y sonidan kichik");
+                }
+            else if (x == y)
+                {
+                Console.WriteLine("x soni y soniga teng");
+                }
+            else
+                { 
+                    Console.WriteLine("x va y ni taqqoslab bo'lmaydi");
+                }        
+           
+           
 
             //Consoleda o'zbek tilida kiritilgan hafta kunini ingliz tiliga o'girib, natijani 
             //chop etuvchi dastur tuzish.
