@@ -1,0 +1,1 @@
+# Basics.Tanlash-bo-limi-
