@@ -102,7 +102,7 @@ using System;
                 }
 
                 Console.WriteLine($"O'yin soni: {son} edi!");
-                
+            
                 Console.WriteLine("Dastur tugadi!");                  
             
       
